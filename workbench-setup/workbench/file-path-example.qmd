@@ -1,0 +1,15 @@
+---
+title: "file path example"
+author: "Stephen Carroll"
+format: html
+---
+
+## 
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data <- read_csv("/courses/EDS221/example/data.csv")
+```
