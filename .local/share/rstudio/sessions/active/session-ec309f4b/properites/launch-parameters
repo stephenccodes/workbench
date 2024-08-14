@@ -1,0 +1,12 @@
+{
+    "name": "RStudio Pro Session",
+    "cluster": "Local",
+    "placement_constraints": [],
+    "resource_limits": [],
+    "queues": [],
+    "container_image": "",
+    "default_image": "",
+    "container_images": [
+        ""
+    ]
+}

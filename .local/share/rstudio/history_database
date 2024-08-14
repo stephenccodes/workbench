@@ -1,0 +1,10 @@
+1723653557733:install.packages("usethis")
+1723653573952:usethis::create_github_token()
+1723654051950:gitcreds::gitcreds_set()
+1723654094665:usethis::git_sitrep()
+1723654231943:getwd()
+1723654271115:setwd("Users/medstest2025/workbench-setup")
+1723654323625:setwd("/Users/scarroll/workbench-setup")
+1723654329710:pwd
+1723654342105:getwd()
+1723654353787:usethis::use_git()

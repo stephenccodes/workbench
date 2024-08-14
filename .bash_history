@@ -1,0 +1,3 @@
+ls -la
+eixt
+exit

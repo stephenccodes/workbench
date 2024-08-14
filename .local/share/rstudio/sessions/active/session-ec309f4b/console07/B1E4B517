@@ -1,0 +1,68 @@
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ ls
+[?2004leds212-day1b.Rproj  [0m[01;34mR[0m
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ git config
+[?2004lusage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ git config -- global user.name "stephen ccodes"
+[?2004lfatal: not in a git directory
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [K]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [K]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [K]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [K]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ gi[K]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ git config --global user,[K.nam e "stephenccodes"
+[?2004l]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ git config --global user.ema il stephen.carroll.6@gmail.com
+[?2004l]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [7mgit config --list --global[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --list --global
+[?2004l[?1h=user.name=stephenccodes[m
+user.email=stephen.carroll.6@gmail.com[m
+[K[?1l>]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ [7mgit config --global credenti[27m[7ma[27m[7ml.helper 'cache --timeout=10000000'[27m[Agit config --global credential.helper 'cache --timeout=10000000'
+[?2004l]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ git config --global --;[Klist
+[?2004l[?1h=user.name=stephenccodes[m
+user.email=stephen.carroll.6@gmail.com[m
+credential.helper=cache --timeout=10000000[m
+[K[?1l>]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ pwd
+[?2004l/Users/scarroll
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ ls
+[?2004leds212-day1b.Rproj  [0m[01;34mR[0m  [01;34mworkbench-setup[0m
+]0;/Users/scarroll[?2004h]0;scarroll@workbench-1: ~[01;32mscarroll@workbench-1[00m:[01;34m~[00m$ cd workbench-setup
+[?2004l]0;/Users/scarroll/workbench-setup[?2004h]0;scarroll@workbench-1: ~/workbench-setup[01;32mscarroll@workbench-1[00m:[01;34m~/workbench-setup[00m$ git status
+[?2004lfatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;/Users/scarroll/workbench-setup[?2004h]0;scarroll@workbench-1: ~/workbench-setup[01;32mscarroll@workbench-1[00m:[01;34m~/workbench-setup[00m$ 
