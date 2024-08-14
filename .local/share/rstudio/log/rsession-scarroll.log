@@ -1,0 +1,1 @@
+2024-08-14T16:53:52.552166Z [rsession-scarroll] WARNING Process supervisor did not terminate within 1 second; LOGGED FROM: void {anonymous}::rCleanup(bool) src/cpp/session/SessionMain.cpp:1334
